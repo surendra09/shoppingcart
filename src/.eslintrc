@@ -1,3 +1,11 @@
+
 {
-    "extends": "cts-shoppingcart"
+    "extends": "cts-shoppingcart",
+    "globals": {
+        "screen": true
+      },
+      "rules": {
+        "no-restricted-globals": ["error", "event", "fdescribe"]
+    }  
+   
 }
