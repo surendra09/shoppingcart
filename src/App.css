@@ -1,4 +1,9 @@
 body {
 	font-family: "open sans condensed";
-	padding: 30px 80px;
+	padding: 0 80px 30px 80px;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
 }
