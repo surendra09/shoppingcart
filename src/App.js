@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { connect } from "react-redux";
 import "./App.css";
 
 import Header from "./components/header/header.component";
@@ -25,4 +26,6 @@ function App() {
 	);
 }
 
-export default App;
+const mapDispatchToProps = (dispatch) => ({});
+
+export default connect(null, mapDispatchToProps)(App);
